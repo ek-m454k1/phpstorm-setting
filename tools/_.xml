@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="ckan_dev" description="ckan開発用" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/sudo" />
+      <option name="PARAMETERS" value="su ckan" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

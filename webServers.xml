@@ -1,0 +1,359 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="39c33c43-9d24-4c71-aa6d-d0bd3d87acc3" name="gillespie" url="http://gillespie.il3c.com">
+        <fileTransfer host="gillespie.il3c.com" port="22122" privateKey="$USER_HOME$/.ssh/id_dsa" accessType="SFTP" keyPair="true" username="m454k1" passphrase="dfc7dfcbdf9fdfcbdfc1df9bdf99dfe1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22122" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="24d89744-8b01-4047-abac-25d5bc898c34" name="vizutti" url="http://test7.masagon.jp/">
+        <fileTransfer host="vizzutti.info-lounge.jp" port="22" privateKey="$USER_HOME$/.ssh/id_dsa" rootFolder="/var/www/" accessType="SFTP" keyPair="true" username="m454k1" passphrase="dfc7dfcbdf9fdfcbdfc1df9bdf99dfe1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0fd394a1-3e4c-4a6b-ac6f-45a0068dc085" name="baby_ch" url="http://122.219.45.198">
+        <fileTransfer host="122.219.45.198" port="22" privateKey="$USER_HOME$/PhpstormProjects/ssh/baby_ch/id_rsa" accessType="SFTP" keyPair="true" username="i-domain" passphrase="dfccdf98dfeddfd3df9fdfd3dfc7dffddfd0">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bd7a3cb0-a054-401a-861a-894a894fbe07" name="thedatahub.jp" url="http://175.41.247.68">
+        <fileTransfer host="175.41.247.68" port="22" privateKey="$USER_HOME$/PhpstormProjects/ssh/thedatahub/thedatahub.jp_ec2-user.pem" accessType="SFTP" keyPair="true" username="ec2-user" passphrase="dfe3dfc4dfccdfc5dfe6dfc5dfdfdfc4dfcddfcfdfe6dfe6dfe9">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fb1ee660-de94-4b55-b808-4f9ded6b1d39" name="quiztest.tb.to" url="http://quiztest.tb.to">
+        <fileTransfer host="quiztest.tb.to" port="22" privateKey="$USER_HOME$/.ssh/mainte_quiztest.tb.to.ppk" accessType="SFTP" keyPair="true" username="mainte" passphrase="dfc4dfc3dfdcdf9ddfe4dfcddfdedfc5">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="10ebb1ef-16b6-4266-9e2e-7fe1533d24f0" name="133.242.158.138" url="http://133.242.158.138">
+        <fileTransfer host="133.242.158.138" port="14322" privateKey="$USER_HOME$/.ssh/id_dsa" accessType="SFTP" keyPair="true" username="m454k1" passphrase="dfc7dfcbdf9fdfcbdfc1df9bdf99dfe1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="14322" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="03397b9d-9aee-467a-82fc-521d0e360ac5" name="shuf.tb.to" url="http://shuf.tb.to">
+        <fileTransfer host="shuf.tb.to" port="22" privateKey="$USER_HOME$/.ssh/mainte_shufumo.tb.to.ppk" accessType="SFTP" keyPair="true" username="mainte" passphrase="dfc4dfc3dfdcdf9ddfe4dfcddfdedfc5">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="29d8c1dc-070c-406d-9b45-6ef2b01a9361" name="dropbox_金沢区歴史散策アプリ" url="http://localhost">
+        <fileTransfer mountedRoot="$USER_HOME$/Dropbox (Info Lounge　LLC)/金沢区歴史散策スマートフォンサービス/2014年度スマホウェブアプリ/html" accessType="MOUNT" />
+      </webServer>
+      <webServer id="67fa16e5-e9ce-4fad-a1cc-d26499c0b83d" name="172.16.1.160" url="http://tevent.geidai.ac.jp/">
+        <fileTransfer host="172.16.1.160" port="22" rootFolder="/home/tevent" accessType="SFTP" username="tevent" password="dfc0dfc5dfdadfc4dfdfdf9edf9fdf9c">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="50fb4656-b534-4e3e-b4b5-252533bf736a" name="angular_tutorial" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="b9643cdf-df09-43fa-a652-4334978d258a" name="nakamura_lab" url="http://54.65.221.71">
+        <fileTransfer host="54.65.221.71" port="22" privateKey="$USER_HOME$/.ssh/nakamura-lab.pem" accessType="SFTP" keyPair="true" username="ec2-user">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="119fdfc1-9be3-4a15-9607-9687c1c5a9ae" name="ftp.aokidshowji.chicappa.jp" url="http://ftp.aokidshowji.chicappa.jp">
+        <fileTransfer host="ftp.aokidshowji.chicappa.jp" port="21" username="chicappa.jp-aokidshowji" password="dfe2dfd3df93dfdddfdcdffadfe8dfde">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ac406890-bf5f-457b-9455-12f47d818f4b" name="133.242.238.85" url="http://133.242.238.85">
+        <fileTransfer host="133.242.238.85" port="14322" privateKey="$USER_HOME$/.ssh/id_dsa" accessType="SFTP" keyPair="true" username="m454k1" passphrase="dfc7dfcbdf9fdfcbdfc1df9bdf99dfe1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="14322" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d439e057-af69-4943-91eb-2bfc0904bdf8" name="219.109.137.44" url="http://219.109.137.44">
+        <fileTransfer host="219.109.137.44" port="21" username="pre-coc-web" password="dfc8dfdedfcfdfdddfcedfd2df9fdf9ddfd9df9edfd8dfc2">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8f6eeffe-5dd7-4eb1-bf80-2618d95948e2" name="artpeaces.sakura.ne.jp" url="http://artpeaces.sakura.ne.jp">
+        <fileTransfer host="artpeaces.sakura.ne.jp" port="21" username="artpeaces" password="dfdfdfc2df93dfdadf9ddfc2df9cdfc1dfc4df9d">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="35ea022c-821f-4245-b9bd-9336e1b9b4a6" name="localgood.jp" url="http://54.238.180.231">
+        <fileTransfer host="54.238.180.231" port="22" privateKey="$USER_HOME$/.ssh/localgood_ec2-user.pem" accessType="SFTP" keyPair="true" username="ec2-user">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a14747bc-212a-4593-af55-94dc6bd7c46e" name="ple-dev.bitmedia.ne.jp" url="http://ple-dev.bitmedia.ne.jp">
+        <fileTransfer host="ple-dev.bitmedia.ne.jp" port="22" accessType="SFTP" username="brother_dev" password="dfc9dfcfdff0df9fdfd8dfe7df99dffddfecdfc1dfe2dfd8">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="655e2bd1-0964-4fcb-9902-cf346b610822" name="54.238.53.188" url="http://54.238.53.188">
+        <fileTransfer host="54.238.53.188" port="22" privateKey="$USER_HOME$/.ssh/id_dsa" accessType="SFTP" keyPair="true" username="m454k1" passphrase="dfc7dfcbdf9fdfcbdfc1df9bdf99dfe1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="03639cdc-8ae8-4958-af3b-f40b01e179fb" name="m454k1.net" url="http://153.127.193.133">
+        <fileTransfer host="153.127.193.133" port="14322" privateKey="$USER_HOME$/.ssh/id_dsa" accessType="SFTP" keyPair="true" username="m454k1" passphrase="dfc7dfcbdf9fdfcbdfc1df9bdf99dfe1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="14322" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="72cef393-ccf1-4784-82b3-432144c927b2" name="m454k1.net (1)" url="http://153.127.193.133">
+        <fileTransfer host="153.127.193.133" port="14322" privateKey="$USER_HOME$/.ssh/id_dsa" accessType="SFTP" keyPair="true" username="m454k1" passphrase="dfc7dfcbdf9fdfcbdfc1df9bdf99dfe1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="14322" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6e8c3bc5-4827-43b8-9f55-7361128b7008" name="midori-no-kyokai-staging" url="http://153.122.81.209">
+        <fileTransfer host="153.122.81.209" port="21" accessType="FTPS" username="tvkcomsftp01" password="dfd3dfd8dfe8dfe4df9edfeddfecdfcb">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="03656e67-0c6e-45e9-af84-fdc263a78853" name="midori-no-kyokai-staging (1)" url="http://153.122.81.209">
+        <fileTransfer host="153.122.81.209" port="21" accessType="FTPS" username="tvkcomsftp01" password="dfd3dfd8dfe8dfe4df9edfeddfecdfcb">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="daae3e65-b9f3-46b2-af74-2615d78fa373" name="od_saitama-web1" url="http://104.41.189.221">
+        <fileTransfer host="104.41.189.221" port="10022" privateKey="$USER_HOME$/.ssh/ckan_od-saitama" accessType="SFTP" keyPair="true" username="ckan">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="10022" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e5d53ece-c4af-4ceb-8ecd-e84f7cee7d25" name="www.namie-tablet.org" url="http://www.namie-tablet.org">
+        <fileTransfer host="www.namie-tablet.org" port="22" privateKey="$USER_HOME$/.ssh/aws-ukedon.pem" accessType="SFTP" keyPair="true" username="bitnami">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="feb54298-d8e5-4fb0-823d-781bee0ff5c9" name="52.193.148.12" url="http://52.193.148.12">
+        <fileTransfer host="52.193.148.12" port="22" privateKey="$USER_HOME$/.ssh/mono-horizon.com.pem" accessType="SFTP" keyPair="true" username="ec2-user">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9740fc06-11e6-49ba-a03f-4c0efa9d370f" name="od_osaka_web1" url="http://40.74.143.152">
+        <fileTransfer host="40.74.143.152" port="22" privateKey="$USER_HOME$/.ssh/ckan_od-saitama" accessType="SFTP" keyPair="true" username="ckan">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="53ac9d6d-82a3-4fe5-855a-1ece9996a02f" name="od_kobe" url="http://40.74.124.83">
+        <fileTransfer host="40.74.124.83" port="22" privateKey="$USER_HOME$/.ssh/ckan_od-saitama" accessType="SFTP" keyPair="true" username="ckan">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c5e960b2-088b-4968-a66f-ab893c6d7ceb" name="localhost" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="cb499ee3-782a-407d-9438-59f397a6686c" name="collection.yokohama.art.museum" url="http://collection.yokohama.art.museum">
+        <fileTransfer host="collection.yokohama.art.museum" port="22" privateKey="$USER_HOME$/.ssh/yokohama.art.museum_il3c.pem" accessType="SFTP" keyPair="true" username="il3c">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2be009fb-41be-4dfd-b2ed-845bdf34b93f" name="itadaki_test01" url="http://210.140.83.7">
+        <fileTransfer host="210.140.83.7" port="22" accessType="SFTP" username="dev" password="dfd0df98df92dfc1dff8dfeedfc1dfdedf97">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3a6be6a8-dfdc-4a8b-9998-5ac1e5479697" name="itadaki-web1" url="http://210.140.83.159">
+        <fileTransfer host="210.140.83.159" port="22" accessType="SFTP" username="idomain" password="dfd2dff3dfdedf9edf92dfdbdfe2dfc9df89">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="761f2746-c791-4608-852d-1f72d6e5b4dd" name="itadaki_test01 (1)" url="http://210.140.83.7">
+        <fileTransfer host="210.140.83.7" port="22" accessType="SFTP" username="dev" password="dfd0df98df92dfc1dff8dfeedfc1dfdedf97">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b32f302d-0e43-4a74-9250-478cfd5f3518" name="104.41.187.239" url="http://104.41.187.239/data">
+        <fileTransfer host="104.41.187.239" port="22" privateKey="$USER_HOME$/.ssh/ckan_od-saitama" accessType="SFTP" keyPair="true" username="ckan">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="279c0e62-9cb7-4bb4-a8e2-403fb1100080" name="cvc-journal.com" url="http://cvc-journal.com">
+        <fileTransfer host="cvc-journal.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa_cvc" accessType="SFTP" keyPair="true" username="m454k1" passphrase="dfc7dfcbdf9fdfcbdfc1df9bdf99dfc1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="498860a5-be9d-4e60-a88b-c126059656d0" name="datameti2017.cloudapp.net (1)" url="http://datameti2017.cloudapp.net">
+        <fileTransfer host="datameti2017.cloudapp.net" port="22" privateKey="$USER_HOME$/.ssh/datameti.jduadmin.key" accessType="SFTP" keyPair="true" username="jduadmin">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f09e7fdd-ad76-4547-b384-96d15a72e672" name="lg-staging" url="http://54.178.145.159">
+        <fileTransfer host="54.178.145.159" port="22" privateKey="$USER_HOME$/.ssh/localgood_ec2-user.pem" accessType="SFTP" keyPair="true" username="ec2-user">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2348a114-a2b9-4e01-ad9d-9df9abd97a1a" name="test-azamino" url="http://test-artazamino.yafjp.org">
+        <fileTransfer host="test-artazamino.yafjp.org" port="21" username="art@test-artazamino.yafjp.org">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3dead3aa-6e1f-4b96-92ea-b7398463232d" name="test-yan" url="http://test-yan.yafjp.org">
+        <fileTransfer host="test-yan.yafjp.org" port="21" username="yan@test-yan.yafjp.org" password="dfdddfdadfdcdfcfdfd8dfdfdfdadf9edfccdfdedfda">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1735904a-0014-474e-b185-80ef017ee086" name="test-kodomo.yafjp.org" url="http://test-kodomo.yafjp.org">
+        <fileTransfer host="test-kodomo.yafjp.org" port="21" username="kodomo@test-kodomo.yafjp.org" password="dfdddfdadfdcdfcfdfd8dfdfdfdadf9edfccdfdedfda">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d76e396e-273c-414f-9bfb-9622b2b0ef0d" name="test-ycag" url="http://test-ycag.yafjp.org">
+        <fileTransfer host="test-ycag.yafjp.org" port="21" username="yan@test-yan.yafjp.org" password="dfdddfdadfdcdfcfdfd8dfdfdfdadf9edfccdfdedfda">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1b44536d-0382-4218-944f-39810bdbfcee" name="od_saitama-web2" url="http://104.41.189.221">
+        <fileTransfer host="104.41.189.221" port="22" privateKey="$USER_HOME$/.ssh/ckan_od-saitama" accessType="SFTP" keyPair="true" username="ckan">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="132e428e-3f5d-4918-ab56-d9d4425d4a4b" name="52.192.71.51 (iomad)" url="http://52.192.71.51">
+        <fileTransfer host="52.192.71.51" port="22" privateKey="$USER_HOME$/.ssh/iomad.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="afd88b68-cc58-44a3-8cd8-87cf2c15498b" name="moodle_test" url="http://52.243.39.30/">
+        <fileTransfer host="52.243.39.30" port="22" privateKey="$USER_HOME$/.ssh/itacademy_test_core" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f6e1cb12-597f-4b20-b1e6-35a0456b87ff" name="localgood_docker_staging" url="http://13.115.110.165">
+        <fileTransfer host="13.115.110.165" port="22" privateKey="$USER_HOME$/.ssh/localgood_ec2-user.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="08159326-d058-4215-b296-2b3473a4c6f1" name="itadaki-test01" url="http://210.140.83.7">
+        <fileTransfer host="210.140.83.7" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b0e52cba-93de-476d-81c9-6e634501a046" name="satchmo" url="http://satchmo.il3c.com">
+        <fileTransfer host="satchmo.il3c.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa_2018" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,19 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping ext="vm" type="HTML" />
+      <mapping ext="jsonld" type="JSON" />
+      <mapping pattern="authorized_keys" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping ext="m3u8" type="PLAIN_TEXT" />
+      <mapping ext="nt" type="PLAIN_TEXT" />
+      <mapping ext="properties" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
+      <mapping ext="sdl" type="PLAIN_TEXT" />
+      <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping ext="utf8" type="PLAIN_TEXT" />
+      <mapping ext="kml" type="XML" />
+    </extensionMap>
+  </component>
+</application>
